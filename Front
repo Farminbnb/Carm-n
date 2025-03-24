@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras de Granjas de Criptomonedas</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .farm-item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 10px;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .farm-item:hover {
+            transform: scale(1.05);
+        }
+        .farm-item img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .farm-item h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .farm-item p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .farm-item button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .farm-item button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="farm-item">
+            <img src="farm1.gif" alt="Granja de minería 1">
+            <h3>Granja Crypto Básica</h3>
+            <p>Ideal para iniciarse en la minería de criptomonedas. Genera ingresos constantes.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="farm-item">
+            <img src="farm2.gif" alt="Granja de minería 2">
+            <h3>Granja Plus</h3>
+            <p>Mayor capacidad y rendimiento para obtener mejores resultados.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="farm-item">
+            <img src="farm3.gif" alt="Granja de minería 3">
+            <h3>Granja Avanzada</h3>
+            <p>Diseñada para usuarios avanzados que buscan maximizar sus ganancias.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="farm-item">
+            <img src="farm4.gif" alt="Granja de minería 4">
+            <h3>Granja Premium</h3>
+            <p>Rendimiento premium con hardware de última generación.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="farm-item">
+            <img src="farm5.gif" alt="Granja de minería 5">
+            <h3>Granja Elite</h3>
+            <p>La mejor opción para maximizar tu inversión en criptomonedas.</p>
+            <button>Comprar</button>
+        </div>
+        <div class="farm-item">
+            <img src="farm6.gif" alt="Granja de minería 6">
+            <h3>Granja Ultimate</h3>
+            <p>La granja más completa, con alto rendimiento y soporte técnico dedicado.</p>
+            <button>Comprar</button>
+        </div>
+    </div>
+
+</body>
+</html>
